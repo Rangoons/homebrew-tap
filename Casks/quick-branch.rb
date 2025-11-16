@@ -9,7 +9,7 @@ cask "quick-branch" do
   name "quick-branch"
   desc "Quick branch creation tool for Linear issues"
   homepage "https://github.com/rangoons/quick-branch"
-  version "0.2.0"
+  version "0.2.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -20,22 +20,22 @@ cask "quick-branch" do
   on_macos do
     on_intel do
       url "https://github.com/Rangoons/quick-branch/releases/download/v#{version}/quick-branch_#{version}_darwin_amd64.tar.gz"
-      sha256 "69789bd4b3e4aa5412c03455bcfa671a143459b76ab9c1e73ad5f2ed32dacf8f"
+      sha256 "7a7ec8ebb10bb121b71aa23a684d45c7063f2df5de9d11353c2cb616326001f9"
     end
     on_arm do
       url "https://github.com/Rangoons/quick-branch/releases/download/v#{version}/quick-branch_#{version}_darwin_arm64.tar.gz"
-      sha256 "5dda3e9c50633f80021c00bbec0d8ced6ccba5047f82e607a658369d3a75b9de"
+      sha256 "a06ad25d0e04f8390bb4286ca9d1b289926fcc77924b7ee8e1b06182209998bb"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Rangoons/quick-branch/releases/download/v#{version}/quick-branch_#{version}_linux_amd64.tar.gz"
-      sha256 "c2ba8966fb892740eb06eff4cfb91b7e2e581954574bac5c6e106177025c876a"
+      sha256 "b5c77d9676866dd60077f54fd9df8da01f5d1094067c0cc1e09da47a96961690"
     end
     on_arm do
       url "https://github.com/Rangoons/quick-branch/releases/download/v#{version}/quick-branch_#{version}_linux_arm64.tar.gz"
-      sha256 "7615a37903cf43a50b88a15fb15c346e3f88e7272aeaea4c2a4a7c45f980bc4e"
+      sha256 "f914672486cca297f9b43a845e5ccb8d921c8c98f52125b277593471ed0454a7"
     end
   end
 
